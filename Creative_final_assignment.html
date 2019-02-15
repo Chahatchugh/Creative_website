@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+
+<!--links-->
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <a href="" onclick="doSomething(); return false;"></a>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="creative_style.css">
+</head>
+<body>
+
+<!--row-->  
+
+<div class="container-fluid">
+  <div class="row">
+
+<!--Left column-->
+
+    <div class="col-sm-2 head_left">
+      <h4>CREATIVE TIM</h4>
+      <hr>
+      <button class="btn btn-primary btn-block"><i class="fa fa-tachometer head_left_left">&nbsp DASHBOARD</i></button>
+      <button class="btn btn-primary btn-block"><i class="fa fa-user-o head_left_left">&nbsp USER PROFILE</i></button>
+      <button class="btn btn-primary btn-block"><i class="fa fa-list-alt head_left_left">&nbsp TABLE LIST</i></button>
+      <button class="btn btn-primary btn-block"><i class="fa fa-file-image-o head_left_left">&nbsp TYPOGRAPHY</i></button>
+      <button class="btn btn-primary btn-block"><i class="fa fa-joomla head_left_left">&nbsp ICONS</i></button>
+      <button class="btn btn-primary btn-block"><i class="fa fa-map-marker head_left_left">&nbsp MAPS</i></button>
+      <button class="btn btn-primary btn-block"><i class="fa fa-bell head_left_left">&nbsp NOTIFICATION</i></button>
+    <div style="bottom: 0; position: fixed ; margin-bottom: 5px">
+      <button class="btn btn-primary btn-block"><i class="fa fa-rocket head_left_left" >&nbsp UPGRADE THE PRO</i></button></span>
+    </div>
+    </div>
+
+<!--Right column-->
+
+    <div class="col-sm-10" style="background-color: lavender;">
+      <nav class="navbar navbar-default headright"> <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Dashboard</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="#"><span class="glyphicon glyphicon-paperclip"></span></a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-globe"></span></a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-search">Search</span></a></li>
+    </ul>
+    <ul class="nav navbar-nav head_right_right">
+      <li><a href="">Account</a></li>
+      <li><div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Action</a>
+    <a href="#">Another action</a>
+    <a href="#">Something</a>
+    <a href="#">Something here</a>
+  </div>
+</div></li>
+       <li>
+          <a href="#">Logout</a>
+        </li>
+    </ul>
+    </ul>
+  </div>
+</nav>
+
+<!-- images added-->
+
+
+
+<div class="row">
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="/w3images/lights.jpg"></a>
+        <div class="caption">
+          <h4>Email statistics</h4>
+          <p>Last Campaign performance</p>
+        </div>
+        <img src="creative_image/piechart.jpg" alt="Lights" style="width:100%">
+        <center><i class="fa fa-circle text-info">Open</i> 
+        <i class="fa fa-circle text-warning">Bounce</i></center>
+        <div class="caption">
+          <hr>
+          <span class="glyphicon glyphicon-time"></span>Campaign sent two days ago .
+        </div>
+    </div>
+  </div>
+
+<!--second chart-->
+
+  <div class="col-md-8">
+    <div class="thumbnail">
+      <a href="/w3images/nature.jpg"></a>
+        <div class="caption">
+          <h4>Users Behavior</h4>
+          <p>24 hours performance</p>
+        </div>
+        <img src="creative_image/columnchart.png" alt="Nature" style="width:100%">
+        <center><i class="fa fa-circle text-info">Open</i> 
+        <i class="fa fa-circle text-warning">Click</i></center>
+        <div class="caption">
+        <hr>
+        <span class="glyphicon glyphicon-repeat"></span>Updated three minutes ago . </div>
+    </div>
+  </div>
+</div>
+
+<!--third chart-->
+
+<div class="row" style="height: 650px">
+  <div class="col-md-6">
+    <div class="thumbnail">
+      <a href="/w3images/lights.jpg"></a>
+        <div class="caption">
+          <h4>2017 Sales</h4>
+          <p>All products including taxes</p>
+        </div>
+        <img src="creative_image/salechart.jpg" alt="Lights" style="width:100%">
+        <center><i class="fa fa-circle text-info">Tesla Model S</i> 
+        <i class="fa fa-circle text-danger">BMW 5 series</i></center>
+        <div class="caption">
+          <hr>
+          <span class="glyphicon glyphicon-ok-sign"></span>Data information certified
+        </div>
+    </div>
+  </div>
+
+<!--Task -->
+
+  <div class="col-md-6">
+    <div class="thumbnail">
+      <a href="/w3images/nature.jpg"></a>
+        <div class="caption">
+          <h4>Tasks</h4>
+          <p>Backend development</p>
+        <hr>
+      </div>
+    <span class="point">
+      <input type="checkbox">Sign contract for "What are conference organizers afraid of?"
+      <a href="#" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil-square-o head_right_right" style="padding: 10px"></i></a>
+      <a href="#" data-toggle="tooltip" data-placement="top" title="Delete"><i class="fa fa-times head_right_right" style="padding: 10px"></i></a>
+      <hr>
+      <input type="checkbox">Lines From Great Russian Literature? Or E-mails From My Boss?
+      <a href="#" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil-square-o head_right_right" style="padding: 10px"></i></a>
+      <a href="#" data-toggle="tooltip" data-placement="top" title="Delete"><i class="fa fa-times head_right_right" style="padding: 10px"></i></a>
+      <hr>
+      <input type="checkbox">Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit
+      <a href="#" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil-square-o head_right_right" style="padding: 10px"></i></a>
+      <a href="#" data-toggle="tooltip" data-placement="top" title="Delete"><i class="fa fa-times head_right_right" style="padding: 10px"></i></a>
+      <hr>
+      <input type="checkbox">Create 4 Invisible User Experiences you Never Knew About
+      <a href="#" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil-square-o head_right_right" style="padding: 10px"></i></a>
+      <a href="#" data-toggle="tooltip" data-placement="top" title="Delete"><i class="fa fa-times head_right_right" style="padding: 10px"></i></a>
+      <hr>
+      <input type="checkbox">Read "Following makes Medium better"
+      <a href="#" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil-square-o head_right_right" style="padding: 10px"></i></a>
+      <a href="#" data-toggle="tooltip" data-placement="top" title="Delete"><i class="fa fa-times head_right_right" style="padding: 10px"></i></a>
+      <hr>
+      <input type="checkbox">Unfollow 5 enemies from twitter
+      <a href="#" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil-square-o head_right_right" style="padding: 10px"></i></a>
+      <a href="#" data-toggle="tooltip" data-placement="top" title="Delete"><i class="fa fa-times head_right_right" style="padding: 10px"></i></a>
+    </span>
+      <hr>
+      <span class="glyphicon glyphicon-repeat"></span>Updated three minutes ago .
+
+    </div>
+  </div>
+</div>
+
+<!--Footer-->
+ <div class="footer">
+  <a target="_blank" href="">Home</a>
+  <a target="_blank" href="">Company</a>
+  <a target="_blank" href="">Portfolio</a>
+  <a target="_blank" href="">Blog</a>
+  <span class="head_right_right"> 2019 <a target="_blank" href="">Creative Tim</a>, made with love for a better web</span>
+</div> 
+</div>
+</body></html>
+
+
